@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 03 - CSS Avanzado</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://kit.fontawesome.com/e190a6dfc5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="all-container grid-container">
+
+        <header class="header-container flex-container">
+
+            <div class="header-logo-container flex-container">
+                <img src="assets/images/logo.svg" class="header-logo" alt="Logo">
+                <div class="header-title">
+                    <h1>TecnoGato</h1>
+                    <h3>Celulares de Gama Alta</h3>
+                </div>
+            </div>
+
+            <i class="fa-solid fa-bars fa-2xl hamburguesa"></i>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-item-link" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#">Catálogo</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#">Ofertas</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#">Contacto</a></li>
+            </ul>
+
+        </header>
+
+        <aside class="aside-container flex-container">
+
+            <div class="selector-container">
+                <h3>Ordernar por marca:</h3>
+                <select class="select-marcas" name="marcas" id="marcas" form="selMarcas">
+                    <option value="apple">Apple</option>
+                    <option value="google">Google</option>
+                    <option value="samsung">Samsung</option>
+                    <option value="sony">Sony</option>
+                    <option value="xiaomi">Xiaomi</option>
+                </select>
+            </div>
+
+        </aside>
+
+        <main class="main-container grid-container">
+
+            <div class="main-card-container grid-container">
+                <div class="product-card flex-container">
+                    <img src="assets/images/01.png" class="card-img" alt="Apple iPhone 13 Pro Max">
+                    <div class="card-details flex-container">
+                        <h2>Apple iPhone 13 Pro Max</h2>
+                    </div>
+                    <p class="card-price">$1.299.990</p>
+                    <a href="https://www.gsmarena.com/apple_iphone_13_pro_max-11089.php" class="card-button" rel="_blank">Compra aquí <i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="product-card flex-container">
+                    <img src="assets/images/02.png" class="card-img" alt="Google Pixel 6 Pro">
+                    <div class="card-details flex-container">
+                        <h2>Google Pixel 6 Pro</h2>
+                    </div>
+                    <p class="card-price">$999.990</p>
+                    <a href="https://www.gsmarena.com/google_pixel_6_pro-10918.php" class="card-button" rel="_blank">Compra aquí <i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="product-card flex-container">
+                    <img src="assets/images/03.png" class="card-img" alt="Samsung Galaxy S22 Ultra 5G">
+                    <div class="card-details flex-container">
+                        <h2>Samsung Galaxy S22 Ultra 5G</h2>
+                    </div>
+                    <p class="card-price">$1.099.990</p>
+                    <a href="https://www.gsmarena.com/samsung_galaxy_s22_ultra_5g-11251.php" class="card-button" rel="_blank">Compra aquí <i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="product-card flex-container">
+                    <img src="assets/images/04.png" class="card-img" alt="Xiaomi Black Shark 5 Pro">
+                    <div class="card-details flex-container">
+                        <h2>Xiaomi Black Shark 5 Pro</h2>
+                    </div>
+                    <p class="card-price">$899.990</p>
+                    <a href="https://www.gsmarena.com/xiaomi_black_shark_5_pro-11453.php" class="card-button" rel="_blank">Compra aquí <i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="product-card flex-container">
+                    <img src="assets/images/05.png" class="card-img" alt="Sony Xperia 1 IV">
+                    <div class="card-details flex-container">
+                        <h2>Sony Xperia 1 IV</h2>
+                    </div>
+                    <p class="card-price">$1.149.990</p>
+                    <a href="https://www.gsmarena.com/sony_xperia_1_iv-11521.php" class="card-button" rel="_blank">Compra aquí <i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="product-card flex-container">
+                    <img src="assets/images/01.png" class="card-img" alt="Apple iPhone 13 Pro Max">
+                    <div class="card-details flex-container">
+                        <h2>Apple iPhone 13 Pro Max</h2>
+                    </div>
+                    <p class="card-price">$1.299.990</p>
+                    <a href="https://www.gsmarena.com/apple_iphone_13_pro_max-11089.php" class="card-button" rel="_blank">Compra aquí <i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="product-card flex-container">
+                    <img src="assets/images/02.png" class="card-img" alt="Google Pixel 6 Pro">
+                    <div class="card-details flex-container">
+                        <h2>Google Pixel 6 Pro</h2>
+                    </div>
+                    <p class="card-price">$999.990</p>
+                    <a href="https://www.gsmarena.com/google_pixel_6_pro-10918.php" class="card-button" rel="_blank">Compra aquí <i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="product-card flex-container">
+                    <img src="assets/images/03.png" class="card-img" alt="Samsung Galaxy S22 Ultra 5G">
+                    <div class="card-details flex-container">
+                        <h2>Samsung Galaxy S22 Ultra 5G</h2>
+                    </div>
+                    <p class="card-price">$1.099.990</p>
+                    <a href="https://www.gsmarena.com/samsung_galaxy_s22_ultra_5g-11251.php" class="card-button" rel="_blank">Compra aquí <i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="product-card flex-container">
+                    <img src="assets/images/04.png" class="card-img" alt="Xiaomi Black Shark 5 Pro">
+                    <div class="card-details flex-container">
+                        <h2>Xiaomi Black Shark 5 Pro</h2>
+                    </div>
+                    <p class="card-price">$899.990</p>
+                    <a href="https://www.gsmarena.com/xiaomi_black_shark_5_pro-11453.php" class="card-button" rel="_blank">Compra aquí <i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="product-card flex-container">
+                    <img src="assets/images/05.png" class="card-img" alt="Sony Xperia 1 IV">
+                    <div class="card-details flex-container">
+                        <h2>Sony Xperia 1 IV</h2>
+                    </div>
+                    <p class="card-price">$1.149.990</p>
+                    <a href="https://www.gsmarena.com/sony_xperia_1_iv-11521.php" class="card-button" rel="_blank">Compra aquí <i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+            </div>
+            <div class="main-counter-container">
+                <ul class="main-counter-list flex-container">
+                    <li class="counter-item counter-item-first"><i class="fa-solid fa-angles-left fa-xs"></i></li>
+                    <li class="counter-item">1</li>
+                    <li class="counter-item">2</li>
+                    <li class="counter-item">3</li>
+                    <li class="counter-item counter-item-last"><i class="fa-solid fa-angles-right fa-xs"></i></li>
+                </ul>
+            </div>
+
+        </main>
+        
+        <footer class="footer-container">
+
+            <div class="footer-items flex-container">
+                <div class="footer-logos">
+                    <a class="footer-logo-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="footer-logo-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <p class="footer-text">© TecnoGato 2022</p>
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
